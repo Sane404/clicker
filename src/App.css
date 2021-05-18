@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-template-areas:
+    "click_area  buildings"
+    "counter upgrades";
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.click_this {
+  grid-area: click_area;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counter {
+  grid-area: counter;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.buildings {
+  grid-area: buildings;
+  background: rgba(0, 0, 0, 0.5);
   color: white;
+  padding: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.b_name {
+  grid-area: building_name;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.b_amount {
+  grid-area: building_amount;
+}
+.b_buy {
+  grid-area: building_buy;
+}
+.upgrades {
+  grid-area: upgrades;
+  display: grid;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+}
+.building {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  padding: 5px 0;
+  grid-template-areas:
+    "building_name  building_buy"
+    "building_amount building_buy";
+}
+.upgrade_wrap {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.currency {
+  font-size: 20px;
+  padding: 5px;
+}
+.currency_per_second {
+  padding: 5px;
+  font-style: italic;
+  font-size: 16px;
+}
+.buildings h2,
+.upgrades h2 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5px;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: dodgerblue;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+}
+.prestige {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.prestige button {
+  width: 400px;
+  padding: 10px;
+  font-size: 30px;
+}
+small {
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 400px;
+  text-align: center;
+  padding: 3px;
+}
+.tip {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 3px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
