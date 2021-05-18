@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clicker/static/css/main.857a218c.chunk.css",
+    "main.js": "/clicker/static/js/main.a8c954d6.chunk.js",
+    "main.js.map": "/clicker/static/js/main.a8c954d6.chunk.js.map",
+    "runtime-main.js": "/clicker/static/js/runtime-main.9c1661b6.js",
+    "runtime-main.js.map": "/clicker/static/js/runtime-main.9c1661b6.js.map",
+    "static/js/2.633545e7.chunk.js": "/clicker/static/js/2.633545e7.chunk.js",
+    "static/js/2.633545e7.chunk.js.map": "/clicker/static/js/2.633545e7.chunk.js.map",
+    "static/js/3.2d8fc8c9.chunk.js": "/clicker/static/js/3.2d8fc8c9.chunk.js",
+    "static/js/3.2d8fc8c9.chunk.js.map": "/clicker/static/js/3.2d8fc8c9.chunk.js.map",
+    "index.html": "/clicker/index.html",
+    "static/css/main.857a218c.chunk.css.map": "/clicker/static/css/main.857a218c.chunk.css.map",
+    "static/js/2.633545e7.chunk.js.LICENSE.txt": "/clicker/static/js/2.633545e7.chunk.js.LICENSE.txt",
+    "static/media/ClickArea.3bc0e2d3.svg": "/clicker/static/media/ClickArea.3bc0e2d3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c1661b6.js",
+    "static/js/2.633545e7.chunk.js",
+    "static/css/main.857a218c.chunk.css",
+    "static/js/main.a8c954d6.chunk.js"
+  ]
+}
